@@ -13,7 +13,7 @@
 
 #Page{
     position:relative;
-    min-height: 100svh;
+    min-height: 100lvh;
 }
 
 #VisualArts{
@@ -85,7 +85,7 @@
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-evenly;
-    gap: clamp(1rem, 3svw, 3rem);
+    gap: clamp(1rem, 3lvw, 3rem);
 }
 
 .gridImg{  
@@ -95,10 +95,11 @@
 }
 
 .ArtPopUp{
-    width: 100svw;
-    height: 500svh;
+    width: 100%;
+    height: 500lvh;
     top:0;
     left:0;
+    margin:0;
     position: fixed;
     visibility: hidden;
     background: #2b2b2b;
@@ -110,18 +111,18 @@
 
 .HideDescription{
     position: fixed;
-    left:93svw;
-    top:2svw;
-    width:2.5svw;
-    height:2.5svw; 
+    left:93lvw;
+    top:2lvw;
+    width:2.5lvw;
+    height:2.5lvw; 
 }
 
 .ArtDescription{
     position:relative;
-    width: 85svw;
+    width: 85lvw;
     background:#FCF8DA;
-    left:5svw;
-    height:500svh;
+    left:5lvw;
+    height:500lvh;
 }
 
 
@@ -134,116 +135,116 @@
         background-image: url("./images/background_headers/Final/ArtPage.svg");
         background-position: left top;
         background-repeat:no-repeat;
-        background-size: auto 100svh;    
+        background-size: auto 100lvh;    
     }
     #VisualArts{
-        width: 100svw;
-        height:12svh;
-        top:12svh;
+        width: 100lvw;
+        height:12lvh;
+        top:12lvh;
         margin:0;
-        margin-left:13.5svh;
+        margin-left:13.5lvh;
         
-        font-size: min(6.75svw, 9.75svh);
-        letter-spacing:0svh;
+        font-size: min(6.75lvw, 9.75lvh);
+        letter-spacing:0lvh;
         
     }
 
     #Home{
-        left: calc(100svw - 11svh);
-        top:0svh;
-        top:3svh;
-        width:5svh;
-        height:5svh;
+        left: calc(100lvw - 11lvh);
+        top:0lvh;
+        top:3lvh;
+        width:5lvh;
+        height:5lvh;
     }
     
      #ClickImages{
       
-        top:25svh;
+        top:25lvh;
         margin:0;
-        margin-left:15svh;
+        margin-left:15lvh;
         color:#2b2b2b;
-        font-size: 2.5svh;
+        font-size: 2.5lvh;
         font-style: italic;
         
-        letter-spacing:0svh;
+        letter-spacing:0lvh;
         
     }
 
     #bgSideBar{
         position:absolute;
-        top:30svh;
-        bottom: -25svh; 
-        left: 8.12svh;
+        top:30lvh;
+        bottom: -25lvh; 
+        left: 8.12lvh;
         background-color: #2b2b2b;
-        width: 1.4svh;
+        width: 1.4lvh;
         overflow: hidden;
         
     }
 
     #Tabs{  
-        width: 80svw;
+        width: 80lvw;
 
-        left: 15svh;
-        top:32svh;
+        left: 15lvh;
+        top:32lvh;
         
-        font-size: min(3svw,3svh); 
+        font-size: min(3lvw,3lvh); 
     }
 
     .Label{
         padding: 0;
-        padding-right:5svh; 
-        margin-bottom: 2svh;
+        padding-right:5lvh; 
+        margin-bottom: 2lvh;
     }
 
     .ArtGrid{
-        margin-bottom:6svh;
+        margin-bottom:6lvh;
     }
 
     .tablinks:checked+.Label{
-        border-bottom: 1svh solid #c94144;
+        border-bottom: 1lvh solid #c94144;
     }
 
     .gridImg{
-        margin: 2svh;
+        margin: 2lvh;
 
-        max-width: 60svw;
-        max-height: 60svh;
+        max-width: 60lvw;
+        max-height: 60lvh;
         
-        border: 1svh solid #2b2b2b;
+        border: 1lvh solid #2b2b2b;
     }
 
     .Title{
         position:relative;
         margin: 0;
-        margin-left:5svw;
-        margin-top:1svh;
-        font-size: 4svh;
+        margin-left:5lvw;
+        margin-top:1lvh;
+        font-size: 4lvh;
     }
 
     .Medium{
         position:relative;
         margin: 0;
-        margin-left:5svw;
-         margin-top:1svh;
-        font-size: 3svh;
+        margin-left:5lvw;
+         margin-top:1lvh;
+        font-size: 3lvh;
     }
 
     .Size{
         position:fixed;
         margin: 0;
-        margin-left:5svw;
-       margin-top:1svh;
-        font-size: 3svh;
+        margin-left:5lvw;
+       margin-top:1lvh;
+        font-size: 3lvh;
     }
 
     .popupImg{
-        max-height: calc(75svh - 5svw);
-        max-width: 72svw;
+        max-height: calc(75lvh - 5lvw);
+        max-width: 72lvw;
         width:auto;
         height:auto;
-        margin-left:5svw;
-        margin-top:5svw;
-        border: solid 1.5svh #2b2b2b;
+        margin-left:5lvw;
+        margin-top:5lvw;
+        border: solid 1.5lvh #2b2b2b;
     }
 }
 
@@ -253,36 +254,36 @@
         background-image: url("./images/background_headers/Final/ArtPage_Portrait.svg");
         background-position: left top;
         background-repeat:no-repeat;
-        background-size: auto 30svw;
+        background-size: auto 30lvw;
     }
  
     #VisualArts{
-        width: 86svw;
-        height:12svw;
-        top:13.75svw;
+        width: 86lvw;
+        height:12lvw;
+        top:13.75lvw;
         margin:0;
-        margin-left:13.5svw;
+        margin-left:13.5lvw;
        
-        font-size: min(6.75svw, 9.75svh);
+        font-size: min(6.75lvw, 9.75lvh);
     }
 
     #Home{
-        left: 90svw;
-        top:3svw;
-        width:5svw;
-        height:5svw;
+        left: 90lvw;
+        top:3lvw;
+        width:5lvw;
+        height:5lvw;
     }
 
     #ClickImages{
       
-        top:27.5svw;
+        top:27.5lvw;
         margin:0;
-        margin-left:14svw;
+        margin-left:14lvw;
         color:#2b2b2b;
-        font-size: 2svw;
+        font-size: 2lvw;
         font-style: italic;
         
-        letter-spacing:0svw;
+        letter-spacing:0lvw;
         
     }
 
@@ -292,91 +293,91 @@
     }
     
     #Tabs{  
-        width: 90svw;
+        width: 90lvw;
 
-        left: 6svw;
-        top:33svw;
+        left: 6lvw;
+        top:33lvw;
         
-        font-size: 2.75svw;   
+        font-size: 2.75lvw;   
     }
 
     .Label{
         padding: 0;
-        padding-right:3svw;
-        padding-left:3svw;
-        margin-bottom: 2svw;
+        padding-right:3lvw;
+        padding-left:3lvw;
+        margin-bottom: 2lvw;
     }
 
     label[for=Paintings]{
-        margin-left:5svw;
+        margin-left:5lvw;
     }
 
     .ArtGrid{
-        margin-bottom:10svw;
+        margin-bottom:10lvw;
     }
 
     .tablinks:checked+.Label{
-        border-bottom: 1svw solid #c94144;
+        border-bottom: 1lvw solid #c94144;
     }
 
     .gridImg{
-        margin: 2svw;
+        margin: 2lvw;
         margin-left:0;
 
-        max-width: 70svw;
-        max-height: 60svh;
+        max-width: 70lvw;
+        max-height: 60lvh;
 
-        border: 1.5svw solid #2b2b2b;   
+        border: 1.5lvw solid #2b2b2b;   
     }
 
     .HideDescription{
         position: fixed;
         text-decoration: none;
         color:#FCF8DA;
-        left:92svw;
+        left:92lvw;
         top:0;
-        font-size: 5svw;
+        font-size: 5lvw;
     }
 
     .ArtDescription{
         position:relative;
-        width: 85svw;
+        width: 85lvw;
         background:#FCF8DA;
-        left:5svw;
-        height:500svh;
+        left:5lvw;
+        height:500lvh;
     }
 
     .Title{
         position:relative;
         margin: 0;
-        margin-left:2svw;
-        margin-top:2svw;
-        font-size: 4svw;
+        margin-left:2lvw;
+        margin-top:2lvw;
+        font-size: 4lvw;
     }
 
     .Medium{
         position:relative;
         margin: 0;
-        margin-left:2svw;
-         margin-top:0.5svw;
-        font-size: 3svw;
+        margin-left:2lvw;
+         margin-top:0.5lvw;
+        font-size: 3lvw;
     }
 
     .Size{
         position:relative;
         margin: 0;
-        margin-left:2svw;
-       margin-top:0.5svw;
-        font-size: 3svw;
+        margin-left:2lvw;
+       margin-top:0.5lvw;
+        font-size: 3lvw;
     }
 
     .popupImg{
-        max-height: 65svh;
-        max-width: 77svw;
+        max-height: 65lvh;
+        max-width: 77lvw;
         width:auto;
         height:auto;
-        margin-left:2svw;
-        margin-top:5svw;
-        border: solid 2svw #2b2b2b;
+        margin-left:2lvw;
+        margin-top:5lvw;
+        border: solid 2lvw #2b2b2b;
     }
 }
