@@ -27,6 +27,18 @@
     color: #FCF8DA;
 }
 
+#ClickImages{
+    position:absolute;
+    display:flex;
+    align-items: center;
+
+    text-decoration:none;
+    text-align: left center;
+    
+    color: #2b2b2b;
+ 
+}
+
 #Home{
     position: absolute;
 }
@@ -143,6 +155,19 @@
         width:5svh;
         height:5svh;
     }
+    
+     #ClickImages{
+      
+        top:25svh;
+        margin:0;
+        margin-left:15svh;
+        color:#2b2b2b;
+        font-size: 2.5svh;
+        font-style: italic;
+        
+        letter-spacing:0svh;
+        
+    }
 
     #bgSideBar{
         position:absolute;
@@ -158,8 +183,8 @@
     #Tabs{  
         width: 80svw;
 
-        left: 17svh;
-        top:27svh;
+        left: 15svh;
+        top:32svh;
         
         font-size: min(3svw,3svh); 
     }
@@ -248,6 +273,19 @@
         height:5svw;
     }
 
+    #ClickImages{
+      
+        top:27.5svw;
+        margin:0;
+        margin-left:14svw;
+        color:#2b2b2b;
+        font-size: 2svw;
+        font-style: italic;
+        
+        letter-spacing:0svw;
+        
+    }
+
     #bgSideBar{
         position:absolute;
         visibility: hidden;
@@ -257,15 +295,15 @@
         width: 90svw;
 
         left: 6svw;
-        top:30svw;
+        top:33svw;
         
         font-size: 2.75svw;   
     }
 
     .Label{
         padding: 0;
-        padding-right:5svw;
-        
+        padding-right:3svw;
+        padding-left:3svw;
         margin-bottom: 2svw;
     }
 
